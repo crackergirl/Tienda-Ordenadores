@@ -1,6 +1,6 @@
 # Tienda de Ordenadores
 
-Este repositorio contiene un proyecto general en .NET 6 Core que se encarga de gestionar una tienda de ordenadores. El proyecto está compuesto por tres proyectos principales y tres proyectos de pruebas MSTest. A continuación, se detallan los componentes principales del proyecto y los patrones de diseño utilizados.
+Este repositorio contiene una aplicación web encargada de gestionar una tienda de ordenadores. La solución, desarrolada en .NET 6, está compuesta por tres proyectos principales y sus respectivos proyectos de pruebas MSTest. A continuación, se detallan los componentes principales del proyecto y los patrones de diseño utilizados.
 
 ## Proyectos Principales
 
