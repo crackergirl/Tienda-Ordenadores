@@ -1,0 +1,12 @@
+2023-08-15 14:06:30.6737 INFO Se va a mostrar la lista de componentes
+2023-08-15 14:06:46.3281 INFO Se va a crear un componente
+2023-08-15 14:06:46.3281 INFO 0
+2023-08-15 14:06:46.7762 INFO Se va a mostrar la lista de componentes
+2023-08-15 14:06:51.3904 INFO Se va a mostrar la lista de componentes
+2023-08-15 14:06:55.4532 INFO Se va a mostrar la lista de componentes
+2023-08-15 14:06:57.8584 INFO componente borrado
+2023-08-15 14:06:57.9439 INFO Se va a mostrar la lista de componentes
+2023-08-15 14:27:45.5669 INFO Se va a mostrar la lista de componentes
+2023-08-15 16:13:28.1064 INFO Se va a mostrar la lista de componentes
+2023-08-15 16:15:26.2645 INFO Se va a mostrar la lista de componentes
+2023-08-15 16:15:28.4730 INFO Se va a mostrar la lista de componentes

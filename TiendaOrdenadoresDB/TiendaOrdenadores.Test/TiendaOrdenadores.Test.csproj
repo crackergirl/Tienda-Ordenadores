@@ -1,0 +1,39 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+
+    <IsPackable>false</IsPackable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.1.0" />
+    <PackageReference Include="MSTest.TestAdapter" Version="2.2.8" />
+    <PackageReference Include="MSTest.TestFramework" Version="2.2.8" />
+    <PackageReference Include="coverlet.collector" Version="3.1.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="UnitTestComponentes\" />
+    <None Remove="UnitTestBuilderOrdenadores\" />
+    <None Remove="UnitTestFabricaComponentes\" />
+    <None Remove="UnitTestPruebasNivelesMasCompletas\" />
+    <None Remove="UnitTestPruebasNivelesMasCompletas\FabricaOrdenadores\" />
+    <None Remove="UnitTestAlmacenComponentes\" />
+    <None Remove="UnitTestFacturas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="UnitTestComponentes\" />
+    <Folder Include="UnitTestBuilderOrdenadores\" />
+    <Folder Include="UnitTestFabricaComponentes\" />
+    <Folder Include="UnitTestPruebasNivelesMasCompletas\" />
+    <Folder Include="UnitTestPruebasNivelesMasCompletas\FabricaOrdenadores\" />
+    <Folder Include="UnitTestAlmacenComponentes\" />
+    <Folder Include="UnitTestFacturas\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TiendaOrdenadores\TiendaOrdenadores.csproj" />
+  </ItemGroup>
+</Project>

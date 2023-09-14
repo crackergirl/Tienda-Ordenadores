@@ -1,0 +1,64 @@
+﻿@model TiendaOrdenadoresDB.Models.Pedido
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<h4>Pedido</h4>
+<h3>
+    @Model.Id - Precio: @Model.Precio | Calor: @Model.Calor
+</h3>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                Numero de serie
+            </th>
+            <th>
+                Precio
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.OrdenadorPedido)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ordenador.NumeroDeSerie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Ordenador.Precio)
+                </td>
+                <td>
+                    <div>
+                        <a asp-action="Edit" asp-controller="OrdenadoresPedidos" asp-route-id="@item.Id">
+                            <i class="fas fa-edit"></i> Editar
+                        </a>
+                    </div>
+                    <div>
+                        <a asp-action="Details" asp-controller="OrdenadoresPedidos" asp-route-id="@item.Id">
+                            <i class="fas fa-info-circle"></i> Detalles
+                        </a>
+                    </div>
+                    <div>
+                        <a asp-action="Delete"  asp-controller="OrdenadoresPedidos" asp-route-id="@item.Id">
+                            <i class="fas fa-trash-alt"></i> Eliminar
+                        </a>
+                    </div>
+                </td>
+            </tr>
+        }
+        <tr>
+            <td>
+                <a asp-controller="OrdenadoresPedidos" asp-action="Create" asp-route-id="@Model.Id">Añadir Ordenador</a>
+            </td>
+        </tr>
+    </tbody>
+</table>
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+

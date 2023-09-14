@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Componentes\" />
+    <None Remove="Componentes\Procesadores\" />
+    <None Remove="Componentes\Almacenadores\" />
+    <None Remove="Componentes\Almacenadores\Memorizadores\" />
+    <None Remove="BuilderOrdenadores\" />
+    <None Remove="Componentes\Almacenadores\Guardadores\" />
+    <None Remove="FabricaComponentes\" />
+    <None Remove="Pedidos\" />
+    <None Remove="Facturas\" />
+    <None Remove="AlmacenComponentes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Componentes\" />
+    <Folder Include="Componentes\Procesadores\" />
+    <Folder Include="Componentes\Almacenadores\" />
+    <Folder Include="Componentes\Almacenadores\Memorizadores\" />
+    <Folder Include="BuilderOrdenadores\" />
+    <Folder Include="Componentes\Almacenadores\Guardadores\" />
+    <Folder Include="FabricaComponentes\" />
+    <Folder Include="Pedidos\" />
+    <Folder Include="Facturas\" />
+    <Folder Include="AlmacenComponentes\" />
+  </ItemGroup>
+</Project>

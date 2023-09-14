@@ -1,0 +1,10 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+@section Styles
+{
+    <link rel="stylesheet" href="/css/carousel.css">
+}
+
+@(await Component.InvokeAsync("Slider"))

@@ -1,0 +1,104 @@
+﻿@model TiendaOrdenadoresDB.Models.Ordenador
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Editar</h1>
+
+<h4>Ordenador</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="Id" />
+            <div class="form-group">
+                <label asp-for="NumeroDeSerie" class="control-label"></label>
+                <input asp-for="NumeroDeSerie" class="form-control" />
+                <span asp-validation-for="NumeroDeSerie" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Descripcion" class="control-label"></label>
+                <input asp-for="Descripcion" class="form-control" />
+                <span asp-validation-for="Descripcion" class="text-danger"></span>
+            </div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>
+                            Descripcion
+                        </th>
+                        <th>
+                            Precio
+                        </th>
+                        <th>
+                            Calor
+                        </th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @{
+                        int itemCount = 0;
+                        @foreach (var item in Model.OrdenadorComponentes)
+                            {
+                            <tr>
+                                <td>
+                                    @(item.Componente.NumeroDeSerie + " - " + item.Componente.Description)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Componente.Precio)
+                                </td>
+                                <td>
+                                    @Html.DisplayFor(modelItem => item.Componente.Calor)
+                                </td>
+                                <td>
+                                    <div>
+                                        <a asp-action="Edit" asp-controller="OrdenadoresComponentes" asp-route-id="@item.Id">
+                                            <i class="fas fa-edit"></i> Editar
+                                        </a>
+                                    </div>
+                                    <div>
+                                        <a asp-action="Details" asp-controller="OrdenadoresComponentes" asp-route-id="@item.Id">
+                                            <i class="fas fa-info-circle"></i> Detalles
+                                        </a>
+                                    </div>
+                                    @{ 
+                                        itemCount = itemCount + 1;
+                                        if (itemCount > 3)
+                                        {
+                                            <div>
+                                                <a asp-action="Delete" asp-controller="OrdenadoresComponentes" asp-route-id="@item.Id">
+                                                    <i class="fas fa-trash-alt"></i> Eliminar
+                                                </a>
+                                            </div>
+                                        }
+                                    }
+                                </td>
+                            </tr>
+                        }
+                    }
+                    <tr>
+                        <td>
+                            <a asp-controller="OrdenadoresComponentes" asp-action="Create" asp-route-id="@Model.Id">Añadir Componente</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
+<!-- Agregar los estilos de Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">

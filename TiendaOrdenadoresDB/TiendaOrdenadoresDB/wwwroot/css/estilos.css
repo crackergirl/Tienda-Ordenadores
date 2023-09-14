@@ -1,0 +1,8 @@
+﻿td, th {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.table tr:not(thead tr):hover {
+    background-color: rgba(13, 255, 253, 0.2);
+}

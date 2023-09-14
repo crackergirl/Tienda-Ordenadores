@@ -1,0 +1,59 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>d715a69c-2f10-45a2-849e-c9e720351883</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="12.0.1" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.21">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
+    <PackageReference Include="NLog.Extensions.Logging" Version="5.3.3" />
+    <PackageReference Include="Microsoft.Extensions.Http.Polly" Version="6.0.21" />
+    <PackageReference Include="Polly" Version="7.2.4" />
+    <PackageReference Include="Microsoft.AspNet.WebApi.Client" Version="5.2.9" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TiendaOrdenadores\TiendaOrdenadores.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\Links\" />
+    <None Remove="Views\Shared\Components\IndexOrdenador\" />
+    <None Remove="Views\Shared\Components\CreateLink\" />
+    <None Remove="Views\Shared\Components\IndexComponente\" />
+    <None Remove="Views\Shared\Components\Slider\" />
+    <None Remove="Views\Pedidos\" />
+    <None Remove="Views\OrdenadoresPedidos\" />
+    <None Remove="Services\DB\" />
+    <None Remove="Services\Fakes\" />
+    <None Remove="Services\API\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\Links\" />
+    <Folder Include="Views\Shared\Components\IndexOrdenador\" />
+    <Folder Include="Views\Shared\Components\CreateLink\" />
+    <Folder Include="Views\Shared\Components\IndexComponente\" />
+    <Folder Include="Views\Shared\Components\Slider\" />
+    <Folder Include="wwwroot\images\" />
+    <Folder Include="Views\Pedidos\" />
+    <Folder Include="Views\OrdenadoresPedidos\" />
+    <Folder Include="Services\DB\" />
+    <Folder Include="Services\Fakes\" />
+    <Folder Include="Services\API\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Remove="wwwroot\images\" />
+  </ItemGroup>
+</Project>

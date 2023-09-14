@@ -1,0 +1,35 @@
+2023-09-08 11:02:06.5838 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:02:14.7475 INFO componente borrado
+2023-09-08 11:02:14.8292 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:02:18.7746 INFO componente borrado
+2023-09-08 11:02:18.8762 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:02:22.9970 INFO componente borrado
+2023-09-08 11:02:23.0563 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:02:34.6758 INFO Se va a crear un componente
+2023-09-08 11:02:34.6780 INFO 0
+2023-09-08 11:02:34.8686 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:02:46.3589 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:03:03.2201 INFO componente actualizado
+2023-09-08 11:06:30.9541 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:06:40.8893 INFO componente actualizado
+2023-09-08 11:06:41.0749 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:06:50.6662 INFO componente borrado
+2023-09-08 11:06:50.7986 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:07:22.9368 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:07:36.9143 INFO Se va a crear un componente
+2023-09-08 11:07:36.9171 INFO 1
+2023-09-08 11:07:37.1719 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:07:58.1660 INFO componente actualizado
+2023-09-08 11:07:58.2396 INFO Se va a mostrar la lista de componentes
+2023-09-08 11:08:04.8109 INFO componente borrado
+2023-09-08 11:08:04.8708 INFO Se va a mostrar la lista de componentes
+2023-09-08 19:36:16.8119 INFO Se va a mostrar la lista de componentes
+2023-09-08 19:36:40.5214 INFO Se va a mostrar la lista de componentes
+2023-09-08 19:36:53.5095 INFO Se va a crear un componente
+2023-09-08 19:36:53.5133 INFO 0
+2023-09-08 19:36:54.0164 INFO Se va a mostrar la lista de componentes
+2023-09-08 19:37:09.0334 INFO componente actualizado
+2023-09-08 19:37:09.1156 INFO Se va a mostrar la lista de componentes
+2023-09-08 19:37:16.1185 INFO Se va a mostrar la lista de componentes
+2023-09-08 19:37:23.5447 INFO componente borrado
+2023-09-08 19:37:23.6324 INFO Se va a mostrar la lista de componentes

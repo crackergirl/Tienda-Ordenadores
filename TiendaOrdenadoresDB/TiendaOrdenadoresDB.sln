@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33829.357
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaOrdenadoresDB", "TiendaOrdenadoresDB\TiendaOrdenadoresDB.csproj", "{9949AAE0-6099-4E83-B3FA-D0B5ED403381}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaOrdenadores", "TiendaOrdenadores\TiendaOrdenadores.csproj", "{1F46E688-374D-4914-9F06-5B698E629E05}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TiendaOrdenadores.Test", "TiendaOrdenadores.Test\TiendaOrdenadores.Test.csproj", "{4CE0B297-F443-4DE4-86D2-615C8619DD9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaOrdenadoresDB.Test", "TiendaOrdenadoresDB.Test\TiendaOrdenadoresDB.Test.csproj", "{5C206992-12D7-43A0-BEDF-CBB1F7E7E837}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaOrdenadoresAPI", "TiendaOrdenadoresAPI\TiendaOrdenadoresAPI.csproj", "{80DC5BF8-A809-4E92-99C5-24F7742B21AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TiendaOrdenadoresAPI.Test", "TiendaOrdenadoresAPI.Test\TiendaOrdenadoresAPI.Test.csproj", "{C0107C98-8D52-4F78-9D09-152B35AA1A08}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9949AAE0-6099-4E83-B3FA-D0B5ED403381}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9949AAE0-6099-4E83-B3FA-D0B5ED403381}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9949AAE0-6099-4E83-B3FA-D0B5ED403381}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9949AAE0-6099-4E83-B3FA-D0B5ED403381}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1F46E688-374D-4914-9F06-5B698E629E05}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F46E688-374D-4914-9F06-5B698E629E05}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F46E688-374D-4914-9F06-5B698E629E05}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F46E688-374D-4914-9F06-5B698E629E05}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4CE0B297-F443-4DE4-86D2-615C8619DD9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4CE0B297-F443-4DE4-86D2-615C8619DD9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4CE0B297-F443-4DE4-86D2-615C8619DD9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4CE0B297-F443-4DE4-86D2-615C8619DD9B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5C206992-12D7-43A0-BEDF-CBB1F7E7E837}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5C206992-12D7-43A0-BEDF-CBB1F7E7E837}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5C206992-12D7-43A0-BEDF-CBB1F7E7E837}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5C206992-12D7-43A0-BEDF-CBB1F7E7E837}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80DC5BF8-A809-4E92-99C5-24F7742B21AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80DC5BF8-A809-4E92-99C5-24F7742B21AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80DC5BF8-A809-4E92-99C5-24F7742B21AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80DC5BF8-A809-4E92-99C5-24F7742B21AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0107C98-8D52-4F78-9D09-152B35AA1A08}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0107C98-8D52-4F78-9D09-152B35AA1A08}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0107C98-8D52-4F78-9D09-152B35AA1A08}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0107C98-8D52-4F78-9D09-152B35AA1A08}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5B833746-1773-45CA-8B0F-3C37DBBCFF2F}
+	EndGlobalSection
+EndGlobal

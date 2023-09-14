@@ -1,0 +1,67 @@
+2023-09-07 08:49:28.1813 INFO Se va a mostrar la lista de componentes
+2023-09-07 17:59:34.9982 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:02:42.0629 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:03:01.9691 INFO Se va a crear un componente
+2023-09-07 18:03:01.9710 INFO 0
+2023-09-07 18:03:02.0519 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:03:21.8351 INFO componente borrado
+2023-09-07 18:03:21.9446 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:03:39.5330 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:03:54.5307 INFO Se va a crear un componente
+2023-09-07 18:03:54.5319 INFO 0
+2023-09-07 18:03:54.5878 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:04:19.9778 INFO componente actualizado
+2023-09-07 18:04:20.0828 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:11:49.3297 INFO componente actualizado
+2023-09-07 18:11:49.3679 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:11:56.5970 INFO componente borrado
+2023-09-07 18:11:56.6211 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:13:05.5061 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:13:17.7393 INFO Se va a crear un componente
+2023-09-07 18:13:17.7420 INFO 0
+2023-09-07 18:13:17.8525 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:13:31.8967 INFO componente actualizado
+2023-09-07 18:17:34.0490 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:17:58.8816 INFO Se va a crear un componente
+2023-09-07 18:17:58.8835 INFO 0
+2023-09-07 18:17:58.9476 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:18:12.6961 INFO componente borrado
+2023-09-07 18:18:12.7741 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:18:51.7087 INFO componente actualizado
+2023-09-07 18:19:30.2508 INFO componente actualizado
+2023-09-07 18:20:07.0620 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:20:33.3904 INFO componente actualizado
+2023-09-07 18:26:50.0775 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:27:07.7943 INFO componente actualizado
+2023-09-07 18:28:37.2808 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:28:47.9488 INFO Se va a crear un componente
+2023-09-07 18:28:47.9511 INFO 0
+2023-09-07 18:28:48.0830 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:28:54.1026 INFO componente borrado
+2023-09-07 18:28:54.1818 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:28:59.5312 INFO componente borrado
+2023-09-07 18:28:59.5921 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:33:12.2954 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:33:21.8912 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:33:26.9299 INFO Se va a crear un componente
+2023-09-07 18:33:26.9299 INFO 0
+2023-09-07 18:33:27.1152 INFO Misused header name, 'Content-Type'. Make sure request headers are used with HttpRequestMessage, response headers with HttpResponseMessage, and content headers with HttpContent objects.
+2023-09-07 18:33:32.4167 INFO Se va a crear un componente
+2023-09-07 18:33:32.4167 INFO 0
+2023-09-07 18:33:32.4813 INFO Misused header name, 'Content-Type'. Make sure request headers are used with HttpRequestMessage, response headers with HttpResponseMessage, and content headers with HttpContent objects.
+2023-09-07 18:33:48.2441 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:34:28.4159 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:34:38.5208 INFO Se va a crear un componente
+2023-09-07 18:34:38.5233 INFO 0
+2023-09-07 18:34:38.6930 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:36:14.5309 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:36:36.4273 INFO Se va a crear un componente
+2023-09-07 18:36:36.4295 INFO 1
+2023-09-07 18:36:36.5450 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:37:08.6750 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:37:25.2710 INFO Se va a crear un componente
+2023-09-07 18:37:25.2734 INFO 0
+2023-09-07 18:41:02.3150 INFO Se va a mostrar la lista de componentes
+2023-09-07 18:41:13.8302 INFO Se va a crear un componente
+2023-09-07 18:41:13.8324 INFO 0
+2023-09-07 18:41:13.9536 INFO Se va a mostrar la lista de componentes

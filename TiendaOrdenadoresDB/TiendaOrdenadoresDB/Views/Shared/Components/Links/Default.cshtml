@@ -1,0 +1,16 @@
+﻿<div>
+    <a asp-action="Edit" asp-controller="@Model.Controller" asp-route-id="@Model.Id">
+        <i class="fas fa-edit"></i> Editar
+    </a>
+</div>
+<div>
+    <a asp-action="Details" asp-controller="@Model.Controller" asp-route-id="@Model.Id">
+        <i class="fas fa-info-circle"></i> Detalles
+    </a>
+</div>
+<div>
+    <a asp-action="Delete" asp-controller="@Model.Controller" asp-route-id="@Model.Id">
+        <i class="fas fa-trash-alt"></i> Eliminar
+    </a>
+</div>
+

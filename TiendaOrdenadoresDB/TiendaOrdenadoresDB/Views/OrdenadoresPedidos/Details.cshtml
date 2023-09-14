@@ -1,0 +1,31 @@
+﻿@model TiendaOrdenadoresDB.Models.OrdenadorPedido
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+
+<div>
+    <h4>Ordenador del pedido @Model.PedidoId</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.PedidoId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.PedidoId)
+        </dd>
+        <dt class="col-sm-2">
+            @Html.DisplayNameFor(model => model.OrdenadorId)
+        </dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.OrdenadorId)
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Edit" asp-controller="OrdenadoresPedidos" asp-route-id="@Model.Id">Edit</a> |
+    <a asp-action="Edit" asp-controller="Pedidos" asp-route-id="@Model.PedidoId">Back to List</a>
+
+</div>

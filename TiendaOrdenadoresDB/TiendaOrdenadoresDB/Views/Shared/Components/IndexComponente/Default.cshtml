@@ -1,0 +1,83 @@
+﻿@model IEnumerable<TiendaOrdenadoresDB.Models.Componente>
+@using TiendaOrdenadoresDB.ViewModels
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Listado de componentes</h1>
+
+@(await Component.InvokeAsync("CreateLink"))
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NumeroDeSerie)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Description)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Calor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Precio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Almacenamiento)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UnidadMedida)
+            </th>
+        </tr>
+    </thead>
+
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.NumeroDeSerie)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+                <td>
+                    @((TipoComponente)item.Categoria)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Calor)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Precio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Almacenamiento)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UnidadMedida)
+                </td>
+                <td>
+                    @{
+                        var linkInfo = new LinksInfo()
+                        {
+                            Controller = "Componentes",
+                            Id = item.Id
+                        };
+                    }
+                    @(await Component.InvokeAsync("Links", linkInfo))
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

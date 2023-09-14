@@ -1,0 +1,44 @@
+﻿.container-lg {
+    display: grid;
+    place-items: center; /* Centra el contenido verticalmente */
+    height: 100vh; /* Opcional: establece la altura del contenedor para que abarque toda la pantalla */
+}
+
+#myCarousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%; /* Asegura que el carrusel ocupe el ancho completo */
+    position: relative; /* Para que los botones tengan posición absoluta relativa a este contenedor */
+}
+
+.carousel-item {
+    position: relative; /* Para que los botones tengan posición absoluta relativa a este contenedor */
+}
+
+.carousel-item img {
+    max-width: 100%; /* Las imágenes se ajustarán al ancho del carrusel */
+    height: auto; /* Permite que las imágenes mantengan su proporción de aspecto */
+    max-height: 70vh; /* Establece una altura máxima para las imágenes en relación con la altura de la pantalla */
+}
+
+.carousel-button {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff; /* Cambiamos el color de las letras a blanco */
+    padding: 20px 40px; /* Aumentamos el tamaño del botón */
+    border: none;
+    border-radius: 20px; /* Sin redondeo de esquinas */
+    font-size: 18px; /* Cambiamos el tamaño de las letras */
+    text-transform: uppercase; /* Cambiamos el texto a mayúsculas */
+    transition: background-color 0.3s ease;
+}
+
+.carousel-image {
+    width: 100%;
+    height: 100%; /* Ajusta esta altura según tus preferencias */
+    object-fit: cover; /* Esto asegura que la imagen ocupe el espacio y mantenga su proporción */
+}
